@@ -16,7 +16,8 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                             "http://localhost:5173",  // local dev
-                            "http://localhost:8080"   // deployed frontend
+                            "http://localhost:8080",
+                            "http://localhost:2030"// deployed frontend
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS");
             }
