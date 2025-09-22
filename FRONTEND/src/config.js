@@ -1,5 +1,5 @@
 const config = {
-  API_BASE_URL: "http://localhost:8080/api"
+  API_BASE_URL: "http://localhost:2030/api/notes"
 };
 
 export default config;
