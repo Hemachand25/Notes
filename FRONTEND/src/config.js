@@ -1,5 +1,5 @@
 const config = {
-  url: "http://localhost:2030/api/notes"
+  url: "http://localhost:2030/notesbackend"
 };
 
 export default config;
